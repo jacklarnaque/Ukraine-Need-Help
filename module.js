@@ -2,4 +2,3 @@
 //     return a + b;
 // }
 //  export default (multiply)
-
