@@ -1,0 +1,61 @@
+body {
+    margin: 1px;
+    padding: 1px;
+}
+.logo{
+    display: block;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-decoration: rgb(12, 39, 12);
+    text-decoration: overline;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+.titreForm {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(13, 82, 82);
+    margin-left: 0;
+}
+.nav-link {
+    color: rgb(13, 82, 82);
+}
+h2 {
+    margin: 1rem;
+    color: rgb(13, 82, 82);
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formHome {
+    display: flexbox;
+    margin: 1rem;
+    justify-content: center;
+}
+.mission p{
+    margin: 1rem;
+}
+.info{
+    font-size: 0.8rem;
+}
+.adresses {
+    margin: 1rem;
+}
+#AdressIntro {
+    margin-top: 5rem;
+    font-style: italic;
+    color: rgb(13, 82, 82);
+    text-decoration: underline;
+
+}
+.crytoHelp {
+    margin: 1rem ;
+    margin-top: 2rem;
+}
+.crytoHelp button {
+    margin-left: 1rem;
+}
+
+.btn-dark-light, .btn-dark-light:hover, .btn-dark-light:active, .btn-dark-light:visited {
+    background-color: rgb(22, 107, 107)
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pageFomulaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f9f309d6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="info.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Info</a>
+            </li>
+            <li class="nav-item">
+                <p><a class="nav-link" class="text-dark" href="contact.html">Contact</a></p>
+            </ul>
+            <span class="logo"><i class="fas fa-fighter-jet fa-lg"></i></span>
+    
+            </header>
+            <h1>Help Ukraine Army</h1>
+        </header>
+    <main>
+    <div class="container">
+        <h2 class="titreForm">Contact US:</h2>
+        <div class="row">
+            <div class="col">
+                <!-- voicis le form boostrap pour email et message  -->
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <p class="info"><i>You have the possibility, if you wish, to also send a message of support with your donation</i></p>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Whrite your message here: </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                
+                <!-- element boostrap pour l'ajout d'un fichier image(( implantez ce code si besoi n selon l'application)) -->
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Select a file to share with us (optionnal)</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</main>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-muted">© Support-Ukraine2022.com</span>
+    </div>
+</footer>
+
+<script src="script.mjs" type="module"></script>
+</body>
+</html>
